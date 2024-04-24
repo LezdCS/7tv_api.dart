@@ -1,6 +1,6 @@
 name: api_7tv
 description: "7TV API Wrapper."
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/LezdCS/7tv_api.dart
 repository: https://github.com/LezdCS/7tv_api.dart
 

@@ -5,3 +5,7 @@
 ## 0.0.2
 
 * Fix Kick call
+
+## 0.0.3
+
+* Fix calls if user have no 7TV emotes
