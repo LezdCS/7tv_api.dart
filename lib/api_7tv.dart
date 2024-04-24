@@ -30,7 +30,7 @@ class SeventvApi {
       response = await dio.get(
         'https://7tv.io/v3/users/twitch/$broadcasterId',
       );
-      if (response.data['emote_set']['emotes']) {
+      if (response.data['emote_set']['emotes'] != null) {
         return response.data['emote_set']['emotes'];
       } else {
         return null;
@@ -48,7 +48,7 @@ class SeventvApi {
       response = await dio.get(
         'https://7tv.io/v3/users/kick/$broadcasterId',
       );
-      if (response.data['emote_set']['emotes']) {
+      if (response.data['emote_set']['emotes'] != null) {
         return response.data['emote_set']['emotes'];
       } else {
         return null;
