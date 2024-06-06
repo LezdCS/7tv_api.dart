@@ -9,3 +9,7 @@
 ## 0.0.3
 
 * Fix calls if user have no 7TV emotes
+
+## 0.0.4
+
+* Update packages
